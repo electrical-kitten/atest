@@ -13,5 +13,6 @@ def test_person_page(driver):
     time.sleep(2)
     burger_menu.click_persons_registry()
     time.sleep(2)
+    # persons_page.wait()
     persons_page.filter_phone()
     persons_page.check_title('Пользователи')
